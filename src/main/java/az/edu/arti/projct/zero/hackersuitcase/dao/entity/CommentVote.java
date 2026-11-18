@@ -3,8 +3,8 @@ package az.edu.arti.projct.zero.hackersuitcase.dao.entity;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 
 @Table(name = "comment_votes")
 @Entity

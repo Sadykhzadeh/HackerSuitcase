@@ -3,10 +3,10 @@ package az.edu.arti.projct.zero.hackersuitcase.dao.entity;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-import javax.persistence.*;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
